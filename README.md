@@ -81,6 +81,7 @@ And well, I gave deepseek one last try (cuz I had no other choice really) with t
 ![alt text](image-6.png)
 
 I just left deepseek to its thinking and just prayed that there would be some miracle. And deepseek did some deep thought...
+
 ![alt text](image-7.png)
 
 When I came back, there indeed was another flag (hallucinated or not)
