@@ -1,7 +1,7 @@
 # Based-64
 
 There was just one file given in the challenge `based64.txt`\
-And it just had a bunch of base 64 coded texted...
+And it just had a bunch of base 64 coded texts...
 
 #### And well ahem, as a professional decoder - I went straight to [decode.fr](https://www.dcode.fr/en)
 
