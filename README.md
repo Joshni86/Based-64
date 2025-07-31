@@ -54,7 +54,7 @@ I understood absolutely nothing ✨, I thought there would be an example explain
 wwf{unUs3d_b1ts_3qu4lz_st}
 ```
 
-And that folks is how you complete a ctf challenge ☆*: .｡. o(≧▽≦)o .｡.:*☆
+And that folks, is how you complete a ctf challenge ☆*: .｡. o(≧▽≦)o .｡.:*☆
 .
 
 .
@@ -132,7 +132,7 @@ Char:   A B C ... Z     a ... z       0 ... 9     +  /
 One of the things you notice in the texts given in the file (`based64.txt`) is "==" - this means that the input is exactly 1 byte and "=" means the input is exactly 2 bytes. \
 Oh and here, except the last input, everything else is 1 byte.
 
-From the article:
+From the article: ([base64 encoding](https://hexarcana.ch/b/2024-08-16-base64-beyond-encoding/))
 
 ```
 1 byte  ==  8 bits » that gives us 1 character (6 bits)
@@ -147,7 +147,7 @@ So basically, the last 4 bits are modifiable and they (in our case) contain the 
 Here's the logic:\
 Let's take "U3==" as example, we are only concerned about the second character - '3'
 
-1. The character '3' is Base64-encoded as index 55.
+1. The character '3' is Base64-encoded as index 55. (`see above`)
 2. 55 in binary is 110111.
 3. The last 4 bits are "0111", which is basically '7'.
 
