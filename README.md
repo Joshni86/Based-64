@@ -26,7 +26,7 @@ And as you can figure by now, that DID NOT work well.
 
 ![alt text](image-2.png)
 
-**_Now what do you do when you're stuck in the middle of an examination ?? You read the question again !!_**
+**_Now what do you do when you're stuck in the middle of an examination?? You read the question again!!_**
 
 ### The biggest hint given was literally in the question and that just flew over my head the first time...
 
@@ -37,7 +37,7 @@ my friend gynvael told me that base64 has some interesting properties..
 Why `gynvael` specifically?
 
 [ P.S I've actually never heard of him before, unfortunately ]\
-And so I searched and found Gynvael Coldwind is a renouned HACKER!
+And so I searched and found Gynvael Coldwind is a renowned HACKER!
 
 ### HACKER!!
 
@@ -168,11 +168,11 @@ _So the first pair is (7,7) and let's bring something else too - ASCII ✨._
 The question is which of the letters if converted from ASCII to binary will have their nibbles as (7,7) ?\
 To put in another perspective, which of the letters will be 0111 0111 in binary.
 
-[ Hopefully that makes sense like - (0111,0111) is (7,7) ]
-
 The answer just so happens to be 'w'.\
 'w' in ASCII is 119 and 119 is 01110111.\
 So there we go, and THAT is how we decode 😁
+
+[ Hopefully that makes sense like - (0111,0111) is (7,7) - the binary of the two nibbles is concatenated to give 01110111 which is 'w' ]
 
 **Ofc, doing the entire thing manuallly is a pain and hence we use scripts. And well after learning that ton of information, I wrote a script too ^\_^** (see `script.py`)
 
