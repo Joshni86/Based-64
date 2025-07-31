@@ -45,6 +45,7 @@ And yes ofc, the next search was `gynvael base 64` and found the legendary artic
 
 I was so excited, I was so close to the answer, finally here comes the flag.... \
 Oops, what in the world did I just read?
+
 ![alt text](image.png)
 
 I understood absolutely nothing ✨, I thought there would be an example explaining how this whole thing works but nope, there was only homework. And as the nice person I am, I gave all of my new findings to deepseek and let it figure out and ofc R1 just gave the flag (yay!):
