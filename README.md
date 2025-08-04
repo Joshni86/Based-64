@@ -1,6 +1,7 @@
 # Based-64
+<img width="872" height="781" alt="Based-64" src="https://github.com/user-attachments/assets/5e6dbe67-de6c-43a7-8e78-38359975252d" />\
 
-There was just one file given in the challenge `based64.txt`\
+There was just one file given in the challenge [`based64.txt`](based64.txt)\
 And it just had a bunch of base 64 coded texts...
 
 #### And well ahem, as a professional decoder - I went straight to [decode.fr](https://www.dcode.fr/en)
@@ -19,12 +20,13 @@ SORRY THERE IS NO FLAG TO BE FOUND HERE. PLEASE DO NOT CONTINUE LOOKING.
 ```
 
 I also tried HxD and ended up with the same answer.
-![alt text](image-3.png)
+
+<img width="1130" height="201" alt="image-3" src="https://github.com/user-attachments/assets/09608ee9-9466-403b-9d9b-0ac9e6889c50" />
 
 Reiterated it through gpt and ended up with something like this: {Base64_has_layers_like_onions}\
 And as you can figure by now, that DID NOT work well.
 
-![alt text](image-2.png)
+<img width="313" height="316" alt="image-2" src="https://github.com/user-attachments/assets/60144b71-3492-4a24-b18c-831e51fa1d9d" />
 
 **_Now what do you do when you're stuck in the middle of an examination?? You read the question again!!_**
 
@@ -39,14 +41,19 @@ Why `gynvael` specifically?
 [ P.S I've actually never heard of him before, unfortunately ]\
 And so I searched and found Gynvael Coldwind is a renowned HACKER!
 
+<img width="2080" height="765" alt="Screenshot 2025-08-04 114904" src="https://github.com/user-attachments/assets/9a550d1e-86c2-4b8c-9ea6-80366b6587d7" />
+
 ### HACKER!!
 
-And yes ofc, the next search was `gynvael base 64` and found the legendary article - [base64 encoding](https://hexarcana.ch/b/2024-08-16-base64-beyond-encoding/)
+And yes ofc, the next search was `gynvael base 64` and found the legendary article from twitter [THE ARTICLE](https://x.com/gynvael/status/1824461315093545417) - [base64 encoding](https://hexarcana.ch/b/2024-08-16-base64-beyond-encoding/)
+
+<img width="1144" height="260" alt="Screenshot 2025-08-04 115041" src="https://github.com/user-attachments/assets/cadb9449-97ac-4ef7-ae82-903b2aa8f702" />
+
 
 I was so excited, I was so close to the answer, finally here comes the flag.... \
 Oops, what in the world did I just read?
 
-![alt text](image.png)
+<img width="565" height="537" alt="image" src="https://github.com/user-attachments/assets/f1018186-2013-4e4a-8139-8e3f41bc629e" />
 
 I understood absolutely nothing ✨, I thought there would be an example explaining how this whole thing works but nope, there was only homework. And as the nice person I am, I gave all of my new findings to deepseek and let it figure out and ofc R1 just gave the flag (yay!):
 
@@ -71,19 +78,50 @@ And that folks, is how you complete a ctf challenge ☆*: .｡. o(≧▽≦)o .�
 
 .
 
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
 Just kidding , it was ❌Incorrect 😭\
 This was the 4th or 5th time the screen reflected the same
-![alt text](image-4.png)
-![alt text](image-5.png)
+
+<img width="726" height="115" alt="image-4" src="https://github.com/user-attachments/assets/ea58958e-8992-4701-9aab-6507a70905e6" />
+<img width="332" height="337" alt="image-5" src="https://github.com/user-attachments/assets/e9cbfaa4-f961-45b3-89d2-376b2155522d" />
 
 At this point, I felt I've tried evrything, the article was greek and latin, gpt wasn't doing much, deepseek is giving wrong answers... \
 And well, I gave deepseek one last try (cuz I had no other choice really) with the best prompt I could come with:
 
-![alt text](image-6.png)
+<img width="272" height="120" alt="image-6" src="https://github.com/user-attachments/assets/69d67ab8-572d-4ace-985b-a99233fd8e02" />
 
 I just left deepseek to its thinking and just prayed that there would be some miracle. And deepseek did some deep thought...
 
-![alt text](image-7.png)
+<img width="495" height="97" alt="image-7" src="https://github.com/user-attachments/assets/d738c2c7-f145-4698-8701-6e2cf8a72fe2" />
 
 When I came back, there indeed was another flag (hallucinated or not)
 
@@ -94,9 +132,10 @@ wwf{unUs3d_b1ts_3qu4lz_st3g0_fun}
 
 And I pasted it not expecting much and well that worked.\
 YUP, that did work!
-![alt text](image-8.png)
 
-If you are interested in the 541 seconds thinking of Deepseek, see `Thinking of based64.txt`
+<img width="577" height="198" alt="image-8" src="https://github.com/user-attachments/assets/d88ad758-9054-431d-aa9d-592293bf4733" />
+
+If you are interested in the 541 seconds thinking of Deepseek, see [`Thinking of based64.txt`](Thinking of based64.txt)
 
 I'll try to summarise what happened here - after completing wwctf, it doesn't seem like greek and latin anymore thankfully.
 
@@ -182,4 +221,4 @@ Well, the short answer is , it is not really related to our flag but hey, try de
 
 Aaaaaaaaaaand we done 🎉
 
-![alt text](running-man-fresh-prince.gif)
+![running-man-fresh-prince](https://github.com/user-attachments/assets/c5ae108f-8923-40cb-8ee3-e5842b24a4d5)
