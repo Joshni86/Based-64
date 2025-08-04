@@ -45,7 +45,7 @@ And so I searched and found Gynvael Coldwind is a renowned HACKER!
 
 ### HACKER!!
 
-And yes ofc, the next search was `gynvael base 64` and found the legendary article from twitter [THE ARTICLE](https://x.com/gynvael/status/1824461315093545417) - [base64 encoding](https://hexarcana.ch/b/2024-08-16-base64-beyond-encoding/)
+And yes ofc, the next search was `gynvael base 64` and found the legendary article from twitter ([see da X](https://x.com/gynvael/status/1824461315093545417)) - [base64 encoding](https://hexarcana.ch/b/2024-08-16-base64-beyond-encoding/)
 
 <img width="1144" height="260" alt="Screenshot 2025-08-04 115041" src="https://github.com/user-attachments/assets/cadb9449-97ac-4ef7-ae82-903b2aa8f702" />
 
@@ -119,7 +119,7 @@ And well, I gave deepseek one last try (cuz I had no other choice really) with t
 
 <img width="272" height="120" alt="image-6" src="https://github.com/user-attachments/assets/69d67ab8-572d-4ace-985b-a99233fd8e02" />
 
-I just left deepseek to its thinking and just prayed that there would be some miracle. And deepseek did some deep thought...
+I just left deepseek to its thinking and just prayed that there would be some miracle. And deepseek went into some deep thought...
 
 <img width="495" height="97" alt="image-7" src="https://github.com/user-attachments/assets/d738c2c7-f145-4698-8701-6e2cf8a72fe2" />
 
@@ -148,7 +148,7 @@ Steganography is the art and science of hiding messages or information within ot
 **Peak Hacker things basically~~**
 
 And in our case, we are hiding text in the "UNUSED BITS" of a Base64 encoding.
-Now this is understable, but the problem is,\
+Now this is understandable, but the problem is,\
  **HOW IN THE WORLD ARE WE SUPPOSED TO GET THE MESSAGE FROM THESE UNUSED BITS?!**
 
 (If you studied crypto or encoding or something and you understand how bits and everything works, this should be quite easy)
@@ -213,7 +213,7 @@ So there we go, and THAT is how we decode 😁
 
 [ Hopefully that makes sense like - (0111,0111) is (7,7) - the binary of the two nibbles is concatenated to give 01110111 which is 'w' ]
 
-**Ofc, doing the entire thing manuallly is a pain and hence we use scripts. And well after learning that ton of information, I wrote a script too ^\_^** (see `script.py`)
+**Ofc, doing the entire thing manuallly is a pain and hence we use scripts. And well after learning that ton of information, I wrote a script too ^\_^** (see [`script.py`](script.py))
 
 Wait, wait, wait just one more thing, I promise...\
 What about the last line? it is 2-bytes so what do we do for that?\
